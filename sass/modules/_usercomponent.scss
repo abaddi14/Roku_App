@@ -1,0 +1,17 @@
+.user-message { margin: 0.25em 0 1em; }
+
+.card {
+    cursor: pointer;
+    color: $rokuPurple;
+    background: $white;
+
+    margin-bottom: 1em;
+
+
+    .card-body p { margin: 10px 0 0; }
+}
+
+.profiles{
+  background-color: $rokuPurple;
+  width:100%;
+}

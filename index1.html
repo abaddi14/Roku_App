@@ -1,0 +1,23 @@
+
+<img src="images/roku.svg" id="loginRokuLogo" alt="Roku Logo" width="250">
+    
+<div class="navArea">
+  <input type="checkbox" class="nav_box" id="nav-toggle">
+  <label for="nav-toggle" class="nav_but">
+      <span class="nav_icon">&nbsp;</span>
+  </label>
+  <div class="nav_background"></div>
+    <nav class="nav_full">
+      <h3 class="hidden">Main Navigation</h3>
+      <ul class="nav_list">
+         <li v-if="authenticated" class="nav_item"><router-link to="/" class="nav_link">Home</router-link></li>
+        <li v-if="administrator" class="nav_item"><router-link to="/parents" class="nav_link">Parents</router-link></li>
+         <li v-if="authenticated" class="nav_item"> <router-link to="/kids" class="nav_link">Kids</router-link></li>
+         <li class="nav_item"  v-if="authenticated" v-on:click="logout()"><i class="fas fa-power-off"></li>
+      </ul>
+    </nav>
+</div>
+<section id="logo-sect">
+  <h2 class="hidden">Logo</h2>
+  <div><p>Roku TV</p></div>
+  </section>

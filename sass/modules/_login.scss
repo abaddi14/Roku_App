@@ -1,0 +1,50 @@
+.roku-jumbotron {
+    color: $rokuPurple;
+    background-color:$blue;
+    margin: 70px 30px 0 !important;
+}
+
+.jumbotron{
+  background-color:$blue;
+
+}
+
+
+
+
+#loginForm {
+    margin-top: 60px;
+}
+
+.form-titles {
+    color: $main-color;
+    font-family: $reg-font;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+p.form-titles {
+    margin-bottom: 0.2rem;
+}
+
+.form-row {
+    display: block;
+}
+
+.btn-primary{
+    color: $main-color;
+    background-color: $white;
+    border-color: $periwinkle;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.15)
+}
+
+
+.btn-primary:hover{
+    color: $white;
+    background-color: $orange;
+    border-color: $medium-purple;
+}
+
+button, select{
+    text-transform: uppercase;
+}

@@ -1,0 +1,48 @@
+$dark-bg: rgb(26, 24, 24);
+$orange: #ff7505;
+$crimson-red: #bd0048;
+$green-yellow: #e0f30e;
+$sea-green:#04a47a;
+$turquoise: #24c2cb;
+$rokuPurple: #662d91;
+$blue: #c7f6ff;
+$medium-purple: #6e389a;
+$medium-blue: #0FACFF;
+$periwinkle: #5C69FF;
+$prurple: #6161e4;
+$red: #fb0056;
+
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+@font-face {
+    font-family: 'bauhaus-boldregular';
+    src: url('../fonts/bauhaub-webfont.woff2') format('woff2'),
+         url('../fonts/bauhaub-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'helveticaneue-medium';
+    src: url('../fonts/helveticaneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$main-color: #424f9b;
+$second-color: #4955b3;
+$dark-color: #3C3C3C;
+$white: #F5F5F5;
+$heading-font: "bauhaus-boldregular", sans-serif;
+$reg-font: "helveticaneue-medium", sans-serif;

@@ -1,0 +1,31 @@
+@import '_vars';
+@import 'modules/_main';
+@import 'modules/_usercomponent';
+@import 'modules/_userhomecomponent';
+@import 'modules/_footer';
+@import 'modules/_login';
+@import 'modules/mediaqueries';
+@import 'modules/_nav';
+
+#app {
+    background-color: $grey;
+}
+
+body {
+
+    color:black;
+    background-color:$grey;
+    font-family: $reg-font;
+    background: none;
+
+    h2 {
+
+        font-family: $reg-font;
+
+    }
+}
+
+.hidden {
+
+    display: none;
+}
